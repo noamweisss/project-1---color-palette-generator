@@ -8,14 +8,24 @@ h1 {
   margin-bottom: 30px;
 }
 
+.container {
+  display: inline-flex;
+  margin: auto;
+  gap: 10px;
+}
+
 .colorSquare {
-  display: inline-block;
+  display: flex;
   height: 100px;
   width: 100px;
-  margin: 5px;
   border: 1px solid #ccc;
   border-radius: 10px;
   transition: background-color 0.3s;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: small;
+  font-weight: bold;
 }
 
 button {

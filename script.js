@@ -15,9 +15,10 @@ function randomHexColor() {
 
 const squares = document.querySelectorAll(".colorSquare");
 
-function generatePalette() {
+function generateColors() {
   squares.forEach(function (square) {
-    console.log(randomHexColor());
-    square.style.backgroundColor = randomHexColor();
+    const color = randomHexColor();
+    square.style.backgroundColor = color;
+    square.innerText = color;
   });
 }
