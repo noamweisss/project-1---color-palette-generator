@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.colorSquare {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
