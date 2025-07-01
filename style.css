@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 200px;
+  
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
   display: inline-flex;
   margin: auto;
   gap: 10px;
+  
 }
 
 .colorSquare {
@@ -23,9 +25,9 @@ h1 {
   transition: background-color 0.3s;
   justify-content: center;
   align-items: center;
-  color: #fff;
   font-size: small;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 button {
